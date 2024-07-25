@@ -1,10 +1,13 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/headers";
+import ImageSlider from "./components/imageSlider";
+import Home from "./pages/home";
 
 export default function App() {
   return (
     <BrowserRouter>
       <Header />
+      {/* <ImageSlider /> */}
       <Routes>
       <Route path="/" element={<Home />} />
           <Route path="/building" element={<Building />} />
@@ -19,7 +22,7 @@ export default function App() {
   );
 }
 
-const Home = () => <div>Home Page</div>;
+// const Home = () => <div>Home Page</div>;
 const Building = () => <div>Building System</div>;
 const ERP = () => <div>ERP System</div>;
 const School = () => <div>School System</div>;

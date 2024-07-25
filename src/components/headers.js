@@ -18,7 +18,7 @@ const Header = () => {
     <div className="sticky top-0 bg-gray-800">
       <div className="bg-gray-900">
       </div>
-      <div className=" w-full">
+      <div className=" w-full sticky top-0">
         <nav className="flex items-center justify-between flex-wrap bg-green-700 p-4">
           <a href="/" className=" text-cyan-300 text-2xl size-25  font-bold">
             Abyssinia Software Solution
@@ -38,7 +38,7 @@ const Header = () => {
               ))}
             </div>
             <div>
-              <a href="#" className="inline-block text-sm px-6 text-2xl py-3 leading-none border rounded-full  text-black border-cyan-300 bg-cyan-300 hover:border-transparent hover:text-white hover:bg-gray-800 mt-4 lg:mt-0">
+              <a href="google.com" className="inline-block text-sm px-6 text-2xl py-3 leading-none border rounded-full  text-black border-cyan-300 bg-cyan-300 hover:border-transparent hover:text-white hover:bg-gray-800 mt-4 lg:mt-0">
                 Start Contact
               </a>
             </div>
